@@ -1,0 +1,24 @@
+splitting into tearms
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args)
+    {
+        scanner scanner s=new scanner(system.in);
+        System.out.print("Enter the total number of students: ");
+        int n= scanner.nextInt();
+        System.out.print("Enter the number of teams: ");
+        int k= scanner.nextInt();
+        int teamSize = n%k;
+        int leftOut =n%k;
+        System.out.println("Each team will have " + teamSize + " students.");
+        System.out.println("Number of students left out: " + leftOut);
+        scanner.close();
+        
+    }
+}
